@@ -31,4 +31,8 @@ class SwiftBuzzTests: XCTestCase {
         XCTAssertEqual(result, "buzz")
     }
 
+    func testReturnsFizzBuzzWhenPassed15() {
+        let result = fizzBuzz.calculate(number: 15)
+        XCTAssertEqual(result, "fizzbuzz" )
+    }
 }
