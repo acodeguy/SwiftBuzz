@@ -10,9 +10,11 @@ import XCTest
 @testable import SwiftBuzz
 
 class SwiftBuzzTests: XCTestCase {
+    
+    let fizzBuzz = SwiftBuzz()
 
     override func setUp() {
-        // Put setup code here. This method is called before the invocation of each test method in the class.
+        
     }
 
     override func tearDown() {
@@ -20,7 +22,8 @@ class SwiftBuzzTests: XCTestCase {
     }
     
     func testReturnsFizzWhenPassed3() {
-        XCTAssertEqual(fizzBuzz.calculate(3), "fizz")
+        let result = fizzBuzz.calculate(number: 3)
+        XCTAssertEqual(result, "fizz")
     }
 
 }
