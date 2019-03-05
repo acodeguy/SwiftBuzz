@@ -11,6 +11,10 @@ import Foundation
 class SwiftBuzz {
     
     func calculate(number: Int) -> String {
-        return "fizz"
+        if number % 3 == 0 {
+            return "fizz"
+        } else {
+            return String(number)
+        }
     }
 }
