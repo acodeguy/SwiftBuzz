@@ -1,5 +1,5 @@
 #  SwiftBuzz
-### The FizzBuzz Challenege, built using the TDD methodology, written in Swift with XCTest
+### The FizzBuzz Challenge, built using the TDD methodology, written in Swift with XCTest
 
 ## User Stories
 
