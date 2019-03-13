@@ -31,9 +31,7 @@ I want to see the number itself output to the screen
 This is written in Swift using the Test-Driven Development methodology with XCTest.
 
 ## Running the Tests
-Open the project in Xcode, and expand the 
-
-Once Composer is installed:
-1. ```cd /path/to/PHPBuzz```
-2. ```composer install```
-3. ```./vendor/bin/phpunit --color```
+Open the project in Xcode, and expand the ```SwiftBuzzTests``` folder.
+Take a quick look at the tests Swift file ```SwiftBuzzTests.swift```.
+Press Cmd + U to run the tests.
+Marvel at the such green.
