@@ -62,6 +62,7 @@
 		49A38115222E780C00306BA4 = {
 			isa = PBXGroup;
 			children = (
+				49A38143222E9AEC00306BA4 /* README.md */,
 				49A38120222E780C00306BA4 /* SwiftBuzz */,
 				49A38135222E780D00306BA4 /* SwiftBuzzTests */,
 				49A3811F222E780C00306BA4 /* Products */,
@@ -87,7 +88,6 @@
 				49A3812A222E780D00306BA4 /* LaunchScreen.storyboard */,
 				49A3812D222E780D00306BA4 /* Info.plist */,
 				49A38141222E7C1E00306BA4 /* SwiftBuzz.swift */,
-				49A38143222E9AEC00306BA4 /* README.md */,
 			);
 			path = SwiftBuzz;
 			sourceTree = "<group>";
